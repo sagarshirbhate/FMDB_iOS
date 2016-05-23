@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FMDatabase.h"
 
 @interface ViewController : UIViewController
-
+{
+       FMDatabase * database;
+       NSMutableArray *fields;
+}
 @end
